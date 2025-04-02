@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Daniel
+Curso: 1DAW
+Fecha: 2/4/2025
+Ejercicio: Ejercicio 1, Cuento2: Pinocho
+-->
+<!DOCTYPE cuento SYSTEM "cuentos.dtd">
+<cuento cod="C02" titulo="Las Aventuras de Pinocho" genero="fantasía">
+  <personajes>
+    <personaje id="c1" tipo="principal">
+      <nombre>Pinocho</nombre>
+      <genero>M</genero>
+      <descripcion_fisica>Niño de madera con nariz que crece al mentir</descripcion_fisica>
+    </personaje>
+    <personaje id="g1" tipo="secundario">
+      <nombre>Geppetto</nombre>
+      <genero>M</genero>
+      <descripcion_fisica>Carpintero mayor</descripcion_fisica>
+    </personaje>
+    <personaje id="z1" tipo="antagonista">
+      <nombre>Zorro</nombre>
+      <genero>M</genero>
+      <descripcion>Estafador que engaña a Pinocho</descripcion>
+    </personaje>
+  </personajes>
+  <trama>Geppetto crea una marioneta de madera que cobra vida gracias a un hada. Pinocho debe aprender a ser valiente, veraz y generoso para convertirse en un niño de verdad, enfrentando numerosas tentaciones y peligros en su camino.</trama>
+  <etiqueta nombre="clásico"/>
+  <etiqueta nombre="crecimiento"/>
+  <etiqueta nombre="fantasía"/>
+  <etiqueta nombre="moral"/>
+  <precio moneda="eur">11.50</precio>
+</cuento>

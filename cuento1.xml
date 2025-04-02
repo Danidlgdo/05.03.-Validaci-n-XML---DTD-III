@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Daniel
+Curso: 1DAW
+Fecha: 2/4/2025
+Ejercicio: Ejercicio 1, Cuento1: Los tres cerditos
+-->
+<!DOCTYPE cuento SYSTEM "cuentos.dtd">
+<cuento cod="C01" titulo="Los Tres Cerditos" genero="infantil">
+  <personajes>
+    <personaje id="c1" tipo="principal">
+      <nombre>Cerdito Práctico</nombre>
+      <genero>M</genero>
+      <descripcion_fisica>Pequeño y con un martillo</descripcion_fisica>
+    </personaje>
+    <personaje id="c2" tipo="principal">
+      <nombre>Cerdito Trabajador</nombre>
+      <genero>M</genero>
+      <descripcion_fisica>Pequeño y trabajador</descripcion_fisica>
+    </personaje>
+    <personaje id="c3" tipo="principal">
+      <nombre>Cerdito Perezoso</nombre>
+      <genero>M</genero>
+      <descripcion_fisica>Pequeño y gordo</descripcion_fisica>
+    </personaje>
+    <personaje id="l1" tipo="antagonista">
+      <nombre>Lobo Feroz</nombre>
+      <genero>M</genero>
+      <descripcion_fisica>Peludo, grande y aterrador </descripcion_fisica>
+    </personaje>
+  </personajes>
+  <trama>Tres cerditos construyen casas con diferentes materiales. El lobo feroz intenta derribarlas, pero solo logra destruir las de paja y madera. La casa de ladrillos resiste y los cerditos aprenden la importancia del trabajo bien hecho.</trama>
+  <etiqueta nombre="clásico"/>
+  <etiqueta nombre="moral"/>
+  <etiqueta nombre="animales"/>
+  <precio moneda="eur">9.99</precio>
+</cuento>
